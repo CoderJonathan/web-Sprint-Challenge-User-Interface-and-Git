@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+    border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html, body {
@@ -66,6 +67,35 @@ p {
     line-height: 1.4;
 }
 
+.logo {
+    width: 35%;
+    text-align: left; 
+    margin-top: .5rem;
+}
+
+.links {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+
+.headernav {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -78,6 +108,15 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.jumbo {
+    margin-bottom: 2rem;
+}
+
+.jumbo-about {
+    margin-bottom: 2rem;
+}
+
 
 .top-content .text-container {
     width: 48%;
@@ -101,10 +140,109 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +281,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page styling */
+
+.intro-about-page {
+    margin-bottom: 5%;
+    border-bottom: 1px dashed black;
+    height: 12vh;
+}
+
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.strategy {
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+.how {
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+.places {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin-top: 2rem;
+}
+
+.collaboration {
+    width: 50%;
+    border-bottom: 1px dashed black;
+    margin-top: 2rem;
+}
+
+.about-section h2 {
+    margin: 1rem 0;
+}
+
+.strategy h3 {
+    border: 2px solid black;
+    margin: 1rem 0;
+}
+
+.how h3{
+    border: 2px solid black;
+    margin: 1rem 0;
+}
+
+.places h3 {
+    border: 2px solid black;
+    margin: 1rem 0;
+}
+
+.collaboration h3 {
+    border: 2px solid black;
+    margin: 1rem 0;
+}
+
+h3 {
+    margin-top: 2%;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+h3:hover {
+    color:white;
+    background-color: black;
+}
+
+.together {
+    margin: 2rem 0 2rem 0;
 }
